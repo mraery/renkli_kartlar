@@ -1,0 +1,72 @@
+[
+  {
+    "id": "biyoloji",
+    "title": "Biyoloji Bilgi Kartları",
+    "category": "Biyoloji",
+    "cardCount": 43,
+    "file": "deck_biyoloji.json"
+  },
+  {
+    "id": "genel",
+    "title": "Genel Bilgi Kartları",
+    "category": "Genel",
+    "cardCount": 22,
+    "file": "deck_genel.json"
+  },
+  {
+    "id": "fizik",
+    "title": "Fizik Bilgi Kartları",
+    "category": "Fizik",
+    "cardCount": 48,
+    "file": "deck_fizik.json"
+  },
+  {
+    "id": "kimya",
+    "title": "Kimya Bilgi Kartları",
+    "category": "Kimya",
+    "cardCount": 39,
+    "file": "deck_kimya.json"
+  },
+  {
+    "id": "matematik",
+    "title": "Matematik Bilgi Kartları",
+    "category": "Matematik",
+    "cardCount": 47,
+    "file": "deck_matematik.json"
+  },
+  {
+    "id": "tarih",
+    "title": "Tarih Bilgi Kartları",
+    "category": "Tarih",
+    "cardCount": 42,
+    "file": "deck_tarih.json"
+  },
+  {
+    "id": "cografya",
+    "title": "Coğrafya Bilgi Kartları",
+    "category": "Coğrafya",
+    "cardCount": 30,
+    "file": "deck_cografya.json"
+  },
+  {
+    "id": "turkce",
+    "title": "Türkçe Bilgi Kartları",
+    "category": "Türkçe",
+    "cardCount": 12,
+    "file": "deck_turkce.json"
+  },
+  {
+    "id": "i̇ngilizce",
+    "title": "İngilizce Bilgi Kartları",
+    "category": "İngilizce",
+    "cardCount": 27,
+    "file": "deck_i̇ngilizce.json"
+  },
+  {
+    "id": "genel_kultur",
+    "title": "Genel Kültür Bilgi Kartları",
+    "category": "Genel Kültür",
+    "cardCount": 10,
+    "file": "deck_genel_kultur.json"
+  }
+]

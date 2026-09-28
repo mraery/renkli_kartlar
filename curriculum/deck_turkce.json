@@ -1,0 +1,134 @@
+[
+  {
+    "id": "card-191",
+    "frontTitle": "'Ki' Bağlacının Yazımı",
+    "frontSubtitle": "Yazım Kuralları",
+    "backContent": "• Kural: Kelimeye '-ler' eki getirildiğinde anlamlı oluyorsa BİTİŞİK yazılır (sıfat veya zamir yapan -ki).\n• Anlamsız oluyorsa AYRI yazılır (bağlaç olan ki).\n\nİstisna Kalıplaşmış Sözcükler (SOMBAHÇEMİ):\nSanki, Oysaki, Mademki, Belki, Halbuki, Çünkü, Meğerki, İllaki.",
+    "hint": "SOMBAHÇEMİ bitişik yazılır, -ler testi",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-192",
+    "frontTitle": "'De / Da' Bağlacının Yazımı",
+    "frontSubtitle": "Yazım Kuralları",
+    "backContent": "• Cümleden çıkarıldığında cümlenin anlamı bozulmuyorsa BAĞLAÇTIR ve AYRI yazılır. (Asla te/ta şeklinde yazılamaz).\n• Cümleden çıkarıldığında anlam tamamen bozuluyorsa BULUNMA HAL EKİDİR ve BİTİŞİK yazılır (te/ta olabilir).",
+    "hint": "Cümleden çıkar anlam bozulmazsa ayrı",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-193",
+    "frontTitle": "Büyük Harflerin Kullanımı",
+    "frontSubtitle": "Yazım Kuralları",
+    "backContent": "• Tarihi olay, çağ ve dönem adları büyük yazılır: Cilalı Taş Devri, Tanzimat Dönemi, Kurtuluş Savaşı.\n• Özel ada dahil olmayan gazete, dergi sözcükleri küçük yazılır: Milliyet gazetesi, Varlık dergisi (İstisna: Resmi Gazete).\n• Akrabalık bildiren kelimeler unvan değilse küçük: Ayşe teyzem, Nene Hatun.",
+    "hint": "Resmi Gazete hariç gazete küçük, tarihi çağlar büyük",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 2,
+    "status": "new"
+  },
+  {
+    "id": "card-194",
+    "frontTitle": "Ses Olayları: Ünsüz Benzeşmesi (Sertleşme)",
+    "frontSubtitle": "Ses Bilgisi",
+    "backContent": "Fıstıkçı Şahap (f, s, t, k, ç, ş, h, p) sert ünsüzleriyle biten bir kelimeye c, d, g yumuşak ünsüzleri gelirse ç, t, k'ye dönüşür.\n\nÖrnekler:\n• Kitap-cı -> Kitapçı\n• Sınıf-da -> Sınıfta\n• 1923-de -> 1923'te",
+    "hint": "Fıstıkçı Şahap sertleştirir: c,d,g -> ç,t,k",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-195",
+    "frontTitle": "Ses Olayları: Ünlü Daralması",
+    "frontSubtitle": "Ses Bilgisi",
+    "backContent": "Son harfi 'a' veya 'e' geniş ünlüleri olan fiillere '-yor' eki geldiğinde a/e sesleri ı, i, u, ü dar ünlüye dönüşür.\n\nÖrnekler:\n• Başla-yor -> Başlıyor\n• Bekle-yor -> Bekliyor\n• Ye-yor -> Yiyor (de- ve ye- fiillerinde kaynaştırmada da olur: diyen, yiyen).",
+    "hint": "-yor eki a/e'yi ı/i/u/ü yapar",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-196",
+    "frontTitle": "Fiilimsiler (Eylemsiler)",
+    "frontSubtitle": "Sözcük Türleri",
+    "backContent": "1. İsim-Fiil (Meyve Sıkma): -ma, -ış, -mak (M-A-Y-I-Ş-M-A-K)\n2. Sıfat-Fiil (Ortaç): -an, -ası, -mez, -ar, -dik, -ecek, -miş (Anası mezar dikecekmiş)\n3. Zarf-Fiil (Ulaç): -ken, -alı, -esiye, -meden, -erek, -ip, -ince, -dıkça, -a...-a",
+    "hint": "Mayışmak, Anası mezar dikecekmiş, Zarf-fiil",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-197",
+    "frontTitle": "Cümlenin Ögeleri Bulma Sırası",
+    "frontSubtitle": "Cümle Bilgisi",
+    "backContent": "Sıralama Kuralı: Y - Ö - N - T (Yüklem, Özne, Nesne, Tümleç)\n\n1. Önce Yüklem bulunur.\n2. Yükleme 'Kim/Ne?' soruları sorularak ÖZNE bulunur.\n3. Sonra Nesne (Belirtili: Kimi/Neyi, Belirtisiz: Ne) ve Tümleçler bulunur.\nTamlamalar ve deyimler ASLA bölünmez!",
+    "hint": "Önce Yüklem, sonra Özne, sonra Nesne/Tümleç",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-198",
+    "frontTitle": "Anlatım Bozukluğu: Özne - Yüklem Uyumsuzluğu",
+    "frontSubtitle": "Anlatım Bozuklukları",
+    "backContent": "• Cansız varlıklar, soyut kavramlar veya hayvanlar çoğul özne olduğunda YÜKLEM TEKİL OLUR.\nÖrn: 'Kuşlar ağaçta ötüşüyorlar.' (YANLIŞ) -> 'Kuşlar ağaçta ötüşüyor.' (DOĞRU)\n• Ancak kişileştirme varsa yüklem çoğul olabilir: 'Bulutlar gökyüzünde ağlaşıyorlar.' (Doğru)",
+    "hint": "İnsan dışı çoğul öznelerde yüklem tekil olur",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 2,
+    "status": "new"
+  },
+  {
+    "id": "card-199",
+    "frontTitle": "Edebi Sanatlar: Teşbih, İstiare, Mecazımürsel",
+    "frontSubtitle": "Edebi Sanatlar",
+    "backContent": "• Teşbih (Benzetme): 4 ögesi vardır (Benzeyen, Kendisine Benzetilen, Benzetme Yönü, Benzetme Edatı).\n• İstiare (Eğretileme): Benzetmenin temel ögelerinden sadece birisiyle yapılır.\n  - Açık İstiare: Sadece kendisine benzetilen (Aslanlarımız savaştı).\n  - Kapalı İstiare: Sadece benzeyen (Ay doğar şafak söker).\n• Mecazımürsel: Benzetme amacı olmadan bir sözü başka bir söz yerine kullanma (Ad aktarması - 'Soba yandı').",
+    "hint": "Açık istiare: sadece güçlü olan, Mecazımürsel: soba yandı",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-200",
+    "frontTitle": "Edebi Sanatlar: Tezat, Telmih, Tenasüp",
+    "frontSubtitle": "Edebi Sanatlar",
+    "backContent": "• Tezat: Zıt kavramların bir arada kullanılması (Ağlarım hatıra geldikçe gülüştüklerimiz).\n• Telmih: Herkesçe bilinen tarihi bir olayı veya efsaneyi hatırlatma (Kerem ile Aslı, Hz. Yusuf).\n• Tenasüp: Anlamca birbiriyle ilişkili kelimeleri bir arada kullanma.",
+    "hint": "Tezat zıtlık, Telmih hatırlatma, Tenasüp uygunluk",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 2,
+    "status": "new"
+  },
+  {
+    "id": "card-202",
+    "frontTitle": "İlk Türk Romanları",
+    "frontSubtitle": "Türk Edebiyatı İlkleri",
+    "backContent": "• İlk Yerli Roman: Taaşşuk-ı Talat ve Fitnat (Şemsettin Sami)\n• İlk Edebi Roman: İntibah (Namık Kemal)\n• İlk Tarihi Roman: Cezmi (Namık Kemal)\n• İlk Köy Romanı: Karabibik (Nabizade Nazım)\n• İlk Realist Roman: Araba Sevdası (Recaizade Mahmut Ekrem)\n• İlk Psikolojik Roman: Eylül (Mehmet Rauf)",
+    "hint": "İntibah edebi, Karabibik köy, Araba Sevdası realist, Eylül psikolojik",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  },
+  {
+    "id": "card-203",
+    "frontTitle": "Milli Edebiyat Dönemi Temsilcileri (Genç Kalemler)",
+    "frontSubtitle": "Milli Edebiyat",
+    "backContent": "• 1911 yılında Selanik'te Genç Kalemler dergisiyle başladı.\n• Ömer Seyfettin, Ziya Gökalp ve Ali Canip Yöntem öncülük etti.\n• 'Yeni Lisan' makalesiyle sade Türkçe savunuldu.\n• Hece ölçüsü ve halk dili esas alındı.",
+    "hint": "Ömer Seyfettin, Ziya Gökalp, Yeni Lisan hareketi",
+    "category": "Türkçe",
+    "colorName": "rose",
+    "importance": 3,
+    "status": "new"
+  }
+]
