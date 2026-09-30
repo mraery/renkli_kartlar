@@ -1,53 +1,75 @@
-# 🗂️ Renkli Kartlar - Flutter Bilgi Kartı (Flashcard) & Çalışma Uygulaması
+# 🗂️ Renkli Kartlar v2.0 - 42.000+ Soru & Bilgi Kartı Eğitim Platformu
 
-<p align="center">
-  <b>Sınavlara (YKS, KPSS, LGS, DGS, Yabancı Dil vb.) Hazırlananlar İçin 320+ Hazır Kart, 3D Çevirme, Swipe & Aralıklı Tekrar Platformu</b>
-</p>
+[![Flutter](https://img.shields.io/badge/Flutter-3.13+-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white)](https://dart.dev)
+[![Android APK](https://img.shields.io/badge/Android-APK%20İndir-3DDC84?logo=android&logoColor=white)](https://github.com/mraery/renkli_kartlar/releases)
+[![Kart Sayısı](https://img.shields.io/badge/Kart%20Bankası-42.000%2B-6366F1)](https://github.com/mraery/renkli_kartlar)
+[![Offline](https://img.shields.io/badge/Offline-100%25%20Çevrimdışı-10B981)](#)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart" alt="Dart" />
-  <img src="https://img.shields.io/badge/Feature-3D_Card_Flip-blue" alt="3D Flip" />
-  <img src="https://img.shields.io/badge/Feature-Tinder_Style_Swipe-red" alt="Swipe" />
-  <img src="https://img.shields.io/badge/Built--in_Cards-320+_Cards-green" alt="320 Cards" />
-  <img src="https://img.shields.io/badge/Offline-100%25-success" alt="Offline" />
-  <img src="https://img.shields.io/badge/License-MIT-brightgreen" alt="License" />
-</p>
+Renkli Kartlar, öğrencilerin ve profesyonellerin sınavlara (YKS, KPSS, DGS, LGS), yazılım teknolojilerine ve yabancı dile en etkili yöntemlerle hazırlanması için tasarlanmış dev bir **Flashcard ve İnteraktif Test Platformu**'dur.
 
 ---
 
-## 📖 Genel Bakış
+## 🌟 42.000+ Kart Dağılımı ve Müfredat
 
-**Renkli Kartlar**, öğrencilerin ve sınav adaylarının geniş konuları hızlı, eğlenceli ve akılda kalıcı bir biçimde tekrar etmesini sağlayan modern, yerel bir **Flutter Flashcard** uygulamasıdır.
-
-Leitner aralıklı tekrar (spaced repetition) prensibini 3D animasyonlu kart çevirme ve sezgisel sağa/sola kaydırma (swipe) jestleriyle birleştirir.
-
----
-
-## ✨ Öne Çıkan Özellikler
-
-- **320+ Hazır Bilgi Kartı:** Tarih kodlamaları, coğrafya püf noktaları, İngilizce phrasal verb'ler, matematik formülleri ve felsefe akımları hazır gelir.
-- **Kendi Desteni Oluştur:** Soru-cevap şeklinde dilediğin kadar yeni deste ve kart ekleme, düzenleme ve renklendirme imkanı.
-- **3D Kart Çevirme Animasyonu:** Ön yüze dokunulduğunda akıcı fiziksel kart dönüşüyle cevabı görme.
-- **Sezgisel Swipe Mekaniği:**
-  - 👉 **Sağa Kaydır:** "Biliyorum" (Öğrenilenler havuzuna aktarılır)
-  - 👈 **Sola Kaydır:** "Tekrar Et" (Destenin sonuna eklenir)
-- **Kategori Renk Kodlaması:** Her ders için özelleştirilmiş şık gradyan paletleri.
-- **Tamamen Çevrimdışı ve Reklamsız:** Tüm veriler cihazda SharedPreferences / SQLite üzerinde yerel saklanır.
+| Deste / Kategori | Kart Sayısı | Kapsanan Alt Konular |
+|---|:---:|---|
+| 🎓 **YKS (TYT & AYT)** | **10.000** | Matematik, Geometri, Fizik, Kimya, Biyoloji, Türkçe, Türk Edebiyatı, Tarih, Coğrafya, Felsefe |
+| 🏛️ **KPSS (GY & GK)** | **8.000** | Tarih, Coğrafya, Vatandaşlık & Anayasa Hukuku, Güncel Bilgiler, Türkçe & Sözel Mantık |
+| 💻 **Yazılım & Teknoloji** | **7.000** | Python, JavaScript/TS, Git, Linux/DevOps, C/C++, C#/.NET, Java/Kotlin, SQL, Algoritmalar, Sistem Mimarisi |
+| 🌍 **İngilizce & YDS / TOEFL** | **5.000** | A1-A2 Temel, B1-B2 Orta Düzey, C1-C2 Akademik Kelimeler, Phrasal Verbs, İdiyomlar, Gramer & Bağlaçlar |
+| 📐 **DGS (Sayısal & Sözel)** | **5.000** | Sayısal Mantık, Problemler (Hız, İşçi, Yaş, Yüzde/Kâr), Sözel Bölüm & Paragraf Analizi |
+| 🎒 **LGS (8. Sınıf MEB)** | **5.000** | Matematik, Fen Bilimleri, Türkçe, T.C. İnkılap Tarihi, Din Kültürü, LGS İngilizce |
+| 🧠 **Genel Kültür & Bilim** | **2.000** | Dünya Başkentleri & Coğrafya, Dünya Tarihi & Medeniyetler, Sanat & Klasikler, Bilim Dünyası, Astronomi |
+| ✍️ **Kendi Özel Kartlarım** | **Sınırsız** | Kullanıcının kendi eklediği soru, formül, not ve bilgi kartları |
+| **GENEL TOPLAM** | **42.000+** | **7 Büyük Kategori + Özel Deste** |
 
 ---
 
-## 🛠️ Kurulum & Çalıştırma
+## ✨ Temel Özellikler
+
+- 🗂️ **3D Matrix Kart Çevirme (Tap to Flip):**
+  - Gerçekçi 3D çevirme animasyonuyla ön yüzdeki sorudan arka yüzdeki detaylı açıklamaya, formüllere ve ipuçlarına geçiş.
+- 🎯 **4 Şıklı İnteraktif Test Modu (Quiz):**
+  - Her kart için özel olarak üretilen 4 seçenekli çoktan seçmeli test modu.
+  - Anında doğru/yanlış görsel geri bildirimi, detaylı çözüm kartı ve başarı skorlama tablosu.
+- 🔁 **Leitner Akıllı Tekrar Sistemi (Spaced Repetition):**
+  - Zorlandığınız kartlar otomatik olarak "Tekrar Kutusu"na aktarılır ve destenin sonuna eklenerek öğrenene kadar karşınıza çıkar.
+- 🔍 **42.000 Kart Canlı Gezgini & Arama:**
+  - Başlık, alt başlık, konu veya çözüm metni üzerinden anlık filtreleme ve arama.
+  - Kartlara dokunarak anında 3D önizleme yapabilme.
+- ⏱️ **Otomatik Slayt Modu (Auto-play):**
+  - Belirlenen süre aralıklarıyla kartları otomatik çevirip ilerleten serbest çalışma modu.
+- 📊 **Detaylı İlerleme & İstatistik Ekranı:**
+  - Kategori bazında öğrenilen kart yüzdeleri, tekrar havuzu büyüklüğü, test doğruluk oranları ve günlük çalışma serisi (streak).
+- 🌓 **Karanlık / Aydınlık Tema Desteği:**
+  - Gece ve gündüz göz yormayan modern Material 3 tasarımı ve canlı renk gradyanları.
+
+---
+
+## 📱 Android APK İndirme
+
+En güncel sürüm APK dosyasını doğrudan indirip kurabilirsiniz:
+- **Doğrudan İndirme:** [`apks/renkli_kartlar.apk`](apks/renkli_kartlar.apk)
+- **GitHub Sürümleri:** [Releases v2.0.0](https://github.com/mraery/renkli_kartlar/releases)
+
+---
+
+## 🚀 Projeyi Çalıştırma
 
 ```bash
-git clone https://github.com/mraery/renkli_kartlar.git
-cd renkli_kartlar
+# Bağımlılıkları yükleyin
 flutter pub get
+
+# Kod kalitesi analizi
+flutter analyze
+
+# Testleri çalıştırın
+flutter test
+
+# Uygulamayı başlatın
 flutter run
+
+# Release APK derleyin
+flutter build apk --release
 ```
-
----
-
-## 📄 Lisans
-
-Bu proje MIT lisansı ile lisanslanmıştır.
